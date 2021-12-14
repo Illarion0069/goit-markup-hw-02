@@ -1,42 +1,49 @@
-body {
-  font-family: Roboto, sans-serif;
-  color: #212121;
-}
 :root {
-  --active-color-item: #2196f3;
-  --active-color-text: #eeeeee;
-  --portfolio-item-description: #757575;
+  --primary-title-color: #212121;
+  --text-color: #757575;
+  --primary-bg-color: #e5e5e5;
+  --accent-color: #2196f3;
 }
 
-.portfolio-header {
-  font-size: 14px;
-  line-height: 100%;
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-title-color);
 }
-.portfolio-header-navigation-links:hover,
-.portfolio-header-navigation-links:focus,
-.portfolio-header-navigation-links:active,
-.contact-information-item:hover,
-.contact-information-item:focus {
-  color: var(--active-color-item);
+.logo {
+  color: #000000;
 }
-
-.portfolio-menu {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 139%;
-}
-.portfolio-button:hover {
-  cursor: pointer;
-  background-color: var(--active-color-item);
-  color: var(--active-color-text);
+/* Навигация сайта */
+.list {
+  list-style: none;
 }
 
-.portfolio-item-name {
-  line-height: 171%;
+.site-nav .link {
+  color: var(--primary-title-color);
 }
-.portfolio-item-description {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 160%;
-  color: var(--portfolio-item-description);
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts .item {
+  color: var(--text-color);
+}
+.contacts .item:hover,
+.contacts .item:focus {
+  color: var(--accent-color);
+}
+/* Стили страницы Портфолио */
+/* Меню портфолио */
+.button {
+  background-color: #f5f4fa;
+  color: var(--primary-title-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Примеры работ */
+.work-exemples .text {
+  color: var(--text-color);
 }
