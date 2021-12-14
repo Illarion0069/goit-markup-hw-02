@@ -31,6 +31,20 @@ body {
 .contacts .item:focus {
   color: var(--accent-color);
 }
+/* Стили страницы Студия */
+.hero-title {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.button-primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+/* Секция Наша Команда */
+.text {
+  color: var(--text-color);
+}
+
 /* Стили страницы Портфолио */
 /* Меню портфолио */
 .button {
@@ -44,6 +58,25 @@ body {
 }
 
 /* Примеры работ */
-.work-exemples .text {
+.exemples .text {
   color: var(--text-color);
+}
+/* Footer */
+.address {
+  background-color: #2f303a;
+}
+.address .location {
+  color: #ffffff;
+}
+.address .location:hover,
+.address .location:focus {
+  color: var(--accent-color);
+}
+
+.address .item {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address .item:hover,
+.address .item:focus {
+  color: var(--accent-color);
 }
