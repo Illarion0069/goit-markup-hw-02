@@ -40,6 +40,7 @@ body {
   color: var(--primary-title-color);
 }
 .site-nav .link {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -60,6 +61,7 @@ body {
   color: var(--text-color);
 }
 .contacts .item {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -78,6 +80,7 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   font-weight: 900;
+  text-transform: uppercase;
 }
 .button-primary {
   background-color: var(--accent-color);
@@ -99,6 +102,19 @@ body {
   line-height: 1.8;
   letter-spacing: 0.06em;
   font-weight: 700;
+}
+/* Секция Наши преимущества  */
+.benefits .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefits .text {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 /* Чем мы занимаемся */
 .section-photo .heading,
@@ -140,21 +156,25 @@ body {
 }
 .button {
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 /* Примеры работ */
 .exemples .title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .exemples .text {
   color: var(--text-color);
 }
 .exemples .text {
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
 }
 .exemples .link:hover,
